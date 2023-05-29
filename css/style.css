@@ -1,0 +1,74 @@
+@media screen and (min-width: 1024px) {
+    .imagem_loja {
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+    .container_sobre {
+        flex-direction: row-reverse !important;
+    }
+
+    .texto_sobre {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .imagem_loja--container{
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (min-width:641px) and (max-width: 1023px) {
+    .row-cols-sm-2>* {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .col-sm-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .container-sm,
+    .container {
+        max-width: none;
+    }
+
+    .row-cols-sm-2>* {
+        flex: none;
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+    }
+}
